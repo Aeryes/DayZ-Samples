@@ -1,4 +1,4 @@
-# Dayz-Samples
+# DayZ-Samples
 This Repository aims to provide the DayZ modding community with samples for a wide variety of use cases. 
 
 In this repo you will find a variety of samples from the basic creation of your first mod to more advanced scripting topics and everything in between. 
