@@ -4,4 +4,6 @@ This Repository aims to provide the DayZ modding community with samples for a wi
 In this repo you will find a variety of samples from the basic creation of your first mod to more advanced scripting topics and everything in between. 
 Keep in mind that at the current moment I am the only person working on this, so updates come when I have time.
 
+Use the wiki provided to learn about the samples.
+
 Please !!! If you know a better way to do something contribute !!! These samples will hopefully help new modders get started and help the community as a whole.
