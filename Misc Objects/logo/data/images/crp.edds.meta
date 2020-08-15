@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{50EF3869CB1D6E69}logo/data/images/crp.edds"
+ Author "cleetuspc"
+ ChangeDate -719017821
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "crp.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

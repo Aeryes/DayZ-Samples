@@ -1,0 +1,37 @@
+EffectDef {
+ Emitors {
+  EmitorDef Flame {
+   ShapeType Ellipse
+   ShapeSize 0.5 0 0
+   ConeAngle 360 20 20
+   MaxNum 300
+   BirthRate 30
+   Angles 54.32933 16.47204 18.49574
+   Material "{853257EDA4B1E35D}graphics/particles/materials/fire/fire_flame_01.emat"
+   CenterX 0.005
+   SizeMultiplier 2
+   Velocity 5
+   Wind 1
+   LifeTime 0.25
+  }
+  EmitorDef Sparks {
+   ConeAngle 360 90 20
+   MaxNum 50
+   BirthRate 5
+   Material "{009C2EBAACD2D72A}graphics/particles/materials/fire/sparks1.emat"
+   SizeMultiplier 0.075
+   Wind 1
+   LifeTime 2.5
+  }
+  EmitorDef Smoke {
+   ConeAngle 360 0 20
+   MaxNum 300
+   BirthRate 5
+   Material "{F827A1603B03A8E5}graphics/particles/materials/smoke/smoke_cloud_01_b_trans_rgd2_01.emat"
+   SizeMultiplier 1.5
+   Velocity 1
+   Wind 0
+   LifeTime 10
+  }
+ }
+}

@@ -1,0 +1,1 @@
+Collection of over 100 clothing textures for your enjoyment.

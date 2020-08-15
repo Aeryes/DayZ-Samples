@@ -1,0 +1,237 @@
+FrameWidgetClass KeyPadMenu
+{
+	visible 1
+	clipchildren 0
+	inheritalpha 0
+	color 0.2667 0.2667 0.2667 1
+	position 0 16.272
+	size 316 213.90399
+	halign center_ref
+	valign center_ref
+	hexactpos 1
+	vexactpos 1
+	hexactsize 1
+	vexactsize 1
+	scaled 0
+	draggable 1
+ 
+	style EditorPanel
+
+	{
+	
+		EditBoxWidgetClass txtEnterPin 
+		{
+            position 0 -135
+            size 130 40
+			color 0 0 0 1
+            halign center_ref
+            valign center_ref
+            hexactpos 1
+            vexactpos 1
+            hexactsize 1
+            vexactsize 1
+            text ""
+			
+			"text halign" center
+			"text valign" center
+			
+			style Default
+		}
+  
+		ButtonWidgetClass btn_enter
+        {
+            position 45 45
+            size 40 40
+            halign center_ref
+            valign center_ref
+            hexactpos 1
+            vexactpos 1
+            hexactsize 1
+            vexactsize 1
+            text "E"
+			
+			"text halign" center
+			"text valign" center
+			
+			style InventoryActionMenu
+        }
+		
+		ButtonWidgetClass btn_abord
+        {
+            position -45 45
+            size 40 40
+            halign center_ref
+            valign center_ref
+            hexactpos 1
+            vexactpos 1
+            hexactsize 1
+            vexactsize 1
+            text "*"
+			
+			"text halign" center
+			"text valign" center
+			
+			style InventoryActionMenu
+        }
+		
+		ButtonWidgetClass btn_0
+        {
+            position 0 45
+            size 40 40
+            halign center_ref
+            valign center_ref
+            hexactpos 1
+            vexactpos 1
+            hexactsize 1
+            vexactsize 1
+            text "0"
+			
+			"text halign" center
+			"text valign" center
+        }
+		
+		ButtonWidgetClass btn_1
+        {
+            position 45 0
+            size 40 40
+            halign center_ref
+            valign center_ref
+            hexactpos 1
+            vexactpos 1
+            hexactsize 1
+            vexactsize 1
+            text "1"
+			
+			"text halign" center
+			"text valign" center
+        }
+		
+		ButtonWidgetClass btn_2
+        {
+            position 0 0
+            size 40 40
+            halign center_ref
+            valign center_ref
+            hexactpos 1
+            vexactpos 1
+            hexactsize 1
+            vexactsize 1
+            text "2"
+			
+			"text halign" center
+			"text valign" center
+        }
+		
+		ButtonWidgetClass btn_3
+        {
+            position -45 0
+            size 40 40
+            halign center_ref
+            valign center_ref
+            hexactpos 1
+            vexactpos 1
+            hexactsize 1
+            vexactsize 1
+            text "3"
+			
+			"text halign" center
+			"text valign" center
+        }
+		
+		ButtonWidgetClass btn_4
+        {
+            position 45 -45
+            size 40 40
+            halign center_ref
+            valign center_ref
+            hexactpos 1
+            vexactpos 1
+            hexactsize 1
+            vexactsize 1
+            text "4"
+			
+			"text halign" center
+			"text valign" center
+        }
+		
+		ButtonWidgetClass btn_5
+        {
+            position 0 -45
+            size 40 40
+            halign center_ref
+            valign center_ref
+            hexactpos 1
+            vexactpos 1
+            hexactsize 1
+            vexactsize 1
+            text "5"
+			
+			"text halign" center
+			"text valign" center
+        }
+		
+		ButtonWidgetClass btn_6
+        {
+            position -45 -45
+            size 40 40
+            halign center_ref
+            valign center_ref
+            hexactpos 1
+            vexactpos 1
+            hexactsize 1
+            vexactsize 1
+            text "6"
+			
+			"text halign" center
+			"text valign" center
+        }
+		
+		ButtonWidgetClass btn_7
+        {
+            position 45 -90
+            size 40 40
+            halign center_ref
+            valign center_ref
+            hexactpos 1
+            vexactpos 1
+            hexactsize 1
+            vexactsize 1
+            text "7"
+			
+			"text halign" center
+			"text valign" center
+        }
+		
+		ButtonWidgetClass btn_8
+        {
+            position 0 -90
+            size 40 40
+            halign center_ref
+            valign center_ref
+            hexactpos 1
+            vexactpos 1
+            hexactsize 1
+            vexactsize 1
+            text "8"
+			
+			"text halign" center
+			"text valign" center
+        }
+		
+		ButtonWidgetClass btn_9
+        {
+            position -45 -90
+            size 40 40
+            halign center_ref
+            valign center_ref
+            hexactpos 1
+            vexactpos 1
+            hexactsize 1
+            vexactsize 1
+            text "9"
+			
+			"text halign" center
+			"text valign" center
+        }
+	}
+}

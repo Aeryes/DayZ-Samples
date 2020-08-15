@@ -1,0 +1,34 @@
+FrameWidgetClass HudFrameWidget {
+ position 0 0
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactsize 0
+ vexactsize 0
+ {
+  TextWidgetClass TextWidget0 {
+   visible 1
+   color 1 1 1 0.2
+   position -0.00047 -0.00083
+   size 349.19601 60.4398
+   hexactpos 0
+   vexactpos 0
+   hexactsize 1
+   vexactsize 1
+   text "ChernarusRP"
+   font "gui/fonts/sdf_metronbook24"
+   "text color" 1 1 1 0.2
+   "shadow size" 2
+   "shadow color" 0 0 0 1
+   "shadow offset" 0.5 1
+   "shadow opacity" 0.2
+   "bold text" 1
+   "text sharpness" 1
+   "exact text" 1
+   "exact text size" 50
+   "size to text h" 0
+   "size to text v" 0
+   "text halign" center
+  }
+ }
+}

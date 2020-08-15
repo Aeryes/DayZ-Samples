@@ -1,0 +1,20 @@
+ImageSetClass {
+ Name "logo"
+ RefSize 960 213
+ Textures {
+  ImageSetTextureClass {
+   mpix 1
+   path "inf/infected/data/crp.edds"
+  }
+ }
+ Images {
+  ImageSetDefClass image1 {
+   Name "logo"
+   Pos -4 -5
+   Size 967 220
+   Flags 0
+  }
+ }
+ Groups {
+ }
+}

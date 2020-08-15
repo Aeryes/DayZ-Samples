@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<modded_inputs>
+	<!-- declarations -->
+	<inputs>
+		<actions>
+			<input name="UAToggleLogo" loc="Toggle Logo" />
+		</actions>
+	</inputs>
+
+	<!-- presets -->
+	<preset>
+        <input name="UAToggleLogo">
+            <btn name="kL" />
+        </input>
+	</preset>
+</modded_inputs>

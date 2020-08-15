@@ -1,0 +1,28 @@
+FrameWidgetClass rootFrame {
+ position 2004.26001 19.5014
+ size -300 67
+ halign right_ref
+ valign top_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ {
+  ImageWidgetClass logo {
+   visible 1
+   ignorepointer 1
+   color 1 1 1 0.7843
+   position 0 0
+   size -300 67
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   image0 ""
+   imageTexture ""
+   mode additive
+   "src alpha" 1
+   stretch 1
+  }
+ }
+}

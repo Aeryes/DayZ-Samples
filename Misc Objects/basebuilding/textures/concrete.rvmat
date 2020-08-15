@@ -1,0 +1,9 @@
+surfaceInfo="dz\data\data\penetration\concrete.bisurf";
+ambient[]={0.741,0.228,0.21699999,1};
+diffuse[]={0.741,0.228,0.21699999,1};
+forcedDiffuse[]={0,0,0,0};
+emmisive[]={0,0,0,1};
+specular[]={0,0,0,1};
+specularPower=1;
+PixelShaderID="Normal";
+VertexShaderID="Basic";

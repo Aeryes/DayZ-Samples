@@ -1,0 +1,1 @@
+This directory contains scripts related to all the other things found in this repo, mainly the gear and basebuilding pbs.
