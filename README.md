@@ -1,6 +1,6 @@
 # DayZ-Samples
 
-#ANYTHING IN THIS REPO CAN BE USED FOR ANY PURPOSE. NO CREDIT IS REQUIRED BUT ITD BE NICE :)
+# ANYTHING IN THIS REPO CAN BE USED FOR ANY PURPOSE. NO CREDIT IS REQUIRED BUT ITD BE NICE :)
 
 This Repository aims to provide the DayZ modding community with samples and some ready to use mods for a wide variety of use cases. 
 
