@@ -22,3 +22,4 @@ Please !!! If you know a better way to do something contribute !!! These samples
   - logo: Custom ingame toggable logo.
   - rpchat: Small custom chat that allows colors and prefix based on what you type before your messege.
   - standmap: Shows you how to change hunter stand map images.
+- RestAPI: Sample of how to use RestAPI to connect to a web server.
