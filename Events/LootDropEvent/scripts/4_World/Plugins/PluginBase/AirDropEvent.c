@@ -51,7 +51,7 @@ class AirdropLoot
     string Name;
     ref TStringArray Loot;
 
-    void AirdropLoot( string name, ref TStringArray loot )
+    void AirdropLoot( string name, TStringArray loot )
     {
         Name = name;
         Loot = loot;
@@ -72,9 +72,9 @@ class AirdropSettings
 
 	  void AirdropSettings()
 	  {
-		    LootTiers = new ref array< ref AirdropLoot>;
-		    AirdropContainers = new ref TStringArray;
-        HordeList = new ref TStringArray;
+		    LootTiers = new array< ref AirdropLoot>;
+		    AirdropContainers = new TStringArray;
+        HordeList = new TStringArray;
 	  }
 	
 	  void AirdropDefaults()
@@ -502,7 +502,7 @@ class AirdropSettings
   //       "Scissors",
   //       }));
 
-  LootTiers.Insert( new ref AirdropLoot("AirdropMilitary", {
+  LootTiers.Insert( new AirdropLoot("AirdropMilitary", {
 		"M4A1",
 		"Morphine",
 		"AKM",
@@ -953,9 +953,9 @@ class AirdropSettings
         JsonFileLoader<AirdropSettings>.JsonSaveFile(JSON_Path_Config, this);
     }
 
-    static ref AirdropSettings Load()
+    static AirdropSettings Load()
     {
-        ref AirdropSettings settings = new AirdropSettings();
+        AirdropSettings settings = new AirdropSettings();
 
         if (FileExist(JSON_Path_Config))
         {
@@ -1040,7 +1040,7 @@ class AirDropEvent
     // Spawn the loot at the event location.
     void SpawnLoot() {
 
-        ref AirdropLoot LootTier;
+        AirdropLoot LootTier;
         LootTier = m_ActiveAirdropSettings.LootTiers.GetRandomElement();
 
         //m_ActiveAirdropSettings.AirdropContainers.GetRandomElement() 1st param.
@@ -1088,7 +1088,7 @@ class AirDropEvent
         }
 
         // MESSAGE PLAYERS ABOUT EVENTS ENDING.
-        ref array<Man> players = new array<Man>;
+        array<Man> players = new array<Man>;
         GetGame().GetPlayers(players);
 
         // Send a message to all players that the event has ended.
